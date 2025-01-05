@@ -9,5 +9,5 @@
 }
 </style>
 <template>
-    <div :class="$style.purple">Hello TdA</div>
+    <div class="purple">Hello TdA</div>
 </template>
