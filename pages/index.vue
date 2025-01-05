@@ -13,8 +13,9 @@
     }
 </style>
 <template>
-    <div class="circle"></div>
-    <div class="text">Hello TdA</div>
+    <div class="text">
+        Hello TdA
+    </div>
 </template>
 
 //.circle{
