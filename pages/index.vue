@@ -1,21 +1,15 @@
-<style scoped>
-.text{
-    position: middle;
-    border: 50px;
-    font-family:"DIN 2014";
-    font-size: 40px;
-    color:#323297;
 
+<style module>
+.purple{
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 100px;
+    color:#d6970e;
+    border: 4px dotted rgba(0, 0, 0, 0.315);
 }
-@font-face {
-     font-family: "DIN 2014";
-     src: url(/DIN-2014.otf);
-    }
 </style>
 <template>
-    <div class="text">
-        Hello TdA
-    </div>
+    <p :class="$style.purple">Hello TdA</p>
 </template>
 
 //.circle{
