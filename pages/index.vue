@@ -5,8 +5,9 @@
     font-family: sans-serif;
     font-size: 100px;
     color:#d6970e;
+    border: 4px dotted rgba(0, 0, 0, 0.315);
 }
 </style>
 <template>
-    <div class="purple">Hello TdA</div>
+    <p :class="$style.purple">Hello TdA</p>
 </template>
